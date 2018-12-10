@@ -16,3 +16,8 @@ body {
 	height: 100%;
 }
 
+a {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}

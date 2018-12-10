@@ -29,7 +29,7 @@ function renderMap() {
 	var marker = new google.maps.Marker({
 		position: me,
 		icon: "pickup.png",
-		title: "Username: JlIH50AZeg"
+		title: "Username: Me"
 	});
 	marker.setMap(map);
 		
@@ -83,7 +83,7 @@ function sendMyInfo() {
 		        }
 	    	}
 	};
-	xhr.send("username=JlIH5OAZeg&lat=" + myLat + "&lng=" + myLng + "")
+	xhr.send("username=Me&lat=" + myLat + "&lng=" + myLng + "")
 }
 
 function setMyMarker(distance) {
@@ -92,7 +92,7 @@ function setMyMarker(distance) {
 	var marker = new google.maps.Marker({
 		position: me,
 		icon: "pickup.png",
-		title: "Username: JlIH50AZeg" + "<br/>" + distance + " miles to closest"
+		title: "Username: Me" + "<br/>" + distance + " miles to closest"
 	});
 	marker.setMap(map);
 		
